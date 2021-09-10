@@ -14,41 +14,42 @@ func CheckError(err error){
 		log.Fatalln(err)
 	}
 }
-func margeS(arr )
 
 
-func MargeSort(arr *[]int,n int) {
-	if n>1{
-		mid := int(n/2)
-		L:= (*arr)[:mid]
-		R:= (*arr)[mid:]
-
-		MargeSort(&L,len(L))
-		MargeSort(&R,len(R))
-
-		i:=0;j:=0;k:=0
-		for i<len(L) && j<len(R){
-			if L[i] <R[j]{
-				(*arr)[k] = L[i]
-				i++
-			}else {
-				(*arr)[k] = R[j]
-				j++
-			}
-			k++
-		}
-		for i<len(L){
-			(*arr)[k]=L[i]
+func marge(a []int,b []int) []int {
+	r:= make ([]int, len(a)+len(b))
+	i,j:=0,0
+	for ; i<len(a) && j<len(b);{
+		if a[i] <= b[j]{
+			r[i+j]=a[i]
 			i++
-			k++
-		}
-		for j <len(R){
-			(*arr)[k] = R[j]
+		}else{
+			r[i+j]=b[j]
 			j++
-			k++
 		}
 	}
+	for i<len(a){
+		r[i+j]=a[i]
+		i++
+	}
+	for j<len(b) {
+		r[i+j]=b[j]
+		j++
+	}
+	return r
 }
+
+func MargeSort(arr []int) []int {
+	if len(arr)<2 {
+		return arr
+	}
+
+	m := int(len(arr)/2)
+	a := MargeSort(arr[:m])
+	b:= MargeSort(arr[m:])
+	return marge(a,b)
+}
+
 func main (){
 	fmt.Println("*******Marge Sort******")
 	fmt.Printf("Want to give array of numbers (y/n): ")
@@ -75,6 +76,6 @@ func main (){
 		fmt.Println("Sample array : ",arr)
 	}
 
-	MargeSort(&arr,len(arr))
-	fmt.Println("Marge Sorted array : ",arr)
+	arr2:=MargeSort(arr)
+	fmt.Println("Marge Sorted array : ",arr2)
 }
