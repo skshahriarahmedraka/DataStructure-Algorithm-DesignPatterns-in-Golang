@@ -1,5 +1,5 @@
 # Data structure,Algorithms implemented in Go (for education)
-<img  alt="go-pic" width="30px" src="./0.icons/n.png" />
+<img  alt="go-pic" width="100px" src="./0.icons/n.png" />
 
 
 [comment]: <> (Data structure, Ciphers, Conversions,Design Patterns,Dynamic Programming,Genetic Algorithm,)
