@@ -1,7 +1,10 @@
 # Data structure,Algorithms implemented in Go (for education)
+<img  alt="go-pic" width="30px" src="./0.icons/n.png" />
 
-Data structure, Ciphers, Conversions,Design Patterns,Dynamic Programming,Genetic Algorithm,
-Graphs,Tree,Math,Search, Sorts, String
+
+[comment]: <> (Data structure, Ciphers, Conversions,Design Patterns,Dynamic Programming,Genetic Algorithm,)
+
+[comment]: <> (Graphs,Tree,Math,Search, Sorts, String)
 
 ## List of structure & Algorithms
 

@@ -14,13 +14,13 @@ func CheckError(err error){
 		log.Fatalln(err)
 	}
 }
-func MargeSort(arr []int,n int) {
+func MargeSort(arr []int,n int) ([]int) {
 	if n>1{
 		mid := int(n/2)
 		L:= arr[:mid]
 		R:= arr[mid:]
 
-		MargeSort(L,len(L))
+		arr[ : mid]=MargeSort(L,len(L))
 		MargeSort(R,len(R))
 
 		i:=0;j:=0;k:=0
