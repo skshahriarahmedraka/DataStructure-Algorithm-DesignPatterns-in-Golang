@@ -21,10 +21,10 @@
   11. ciphers (encryptions)
   12. design pattern
 ## 4. Sorting Algorithms :
-* [Selection Sort](./1.Sort/1.SelectionSort.go) <br>
-* [Bubble Sort](./1.Sort/2.bubbleSort.go) <br>
-  * [Recursive Bubble Sort](./1.Sort/3.RecursiveBubbleSort.go) <br>
-* [Insertion Sort](./1.Sort/4.InsertionSort.go) <br>
+* [Selection Sort](./4.Sort/1.SelectionSort.go) <br>
+* [Bubble Sort](./4.Sort/2.bubbleSort.go) <br>
+  * [Recursive Bubble Sort](./4.Sort/3.RecursiveBubbleSort.go) <br>
+* [Insertion Sort](./4.Sort/4.InsertionSort.go) <br>
   * [Recursive Insertion Sort](./1.Sort/5.RecursiveInsertionSort.go) <br>
 * [ Merge Sort Sort](./1.Sort/6.MergeSort.go) <br>
   * [Iterative Merge Sort](./1.Sort/7.IterativeMergeSort.go) <br>

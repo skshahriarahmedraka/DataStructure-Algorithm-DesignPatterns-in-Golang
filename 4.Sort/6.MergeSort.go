@@ -14,33 +14,36 @@ func CheckError(err error){
 		log.Fatalln(err)
 	}
 }
-func MargeSort(arr []int,n int) ([]int) {
+func margeS(arr )
+
+
+func MargeSort(arr *[]int,n int) {
 	if n>1{
 		mid := int(n/2)
-		L:= arr[:mid]
-		R:= arr[mid:]
+		L:= (*arr)[:mid]
+		R:= (*arr)[mid:]
 
-		arr[ : mid]=MargeSort(L,len(L))
-		MargeSort(R,len(R))
+		MargeSort(&L,len(L))
+		MargeSort(&R,len(R))
 
 		i:=0;j:=0;k:=0
 		for i<len(L) && j<len(R){
 			if L[i] <R[j]{
-				arr[k] = L[i]
+				(*arr)[k] = L[i]
 				i++
 			}else {
-				arr[k] = R[j]
+				(*arr)[k] = R[j]
 				j++
 			}
 			k++
 		}
 		for i<len(L){
-			arr[k]=L[i]
+			(*arr)[k]=L[i]
 			i++
 			k++
 		}
 		for j <len(R){
-			arr[k] = R[j]
+			(*arr)[k] = R[j]
 			j++
 			k++
 		}
@@ -72,6 +75,6 @@ func main (){
 		fmt.Println("Sample array : ",arr)
 	}
 
-	MargeSort(arr,len(arr))
+	MargeSort(&arr,len(arr))
 	fmt.Println("Marge Sorted array : ",arr)
 }
