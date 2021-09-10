@@ -25,42 +25,42 @@
 * [Bubble Sort](./4.Sort/2.bubbleSort.go) <br>
   * [Recursive Bubble Sort](./4.Sort/3.RecursiveBubbleSort.go) <br>
 * [Insertion Sort](./4.Sort/4.InsertionSort.go) <br>
-  * [Recursive Insertion Sort](./1.Sort/5.RecursiveInsertionSort.go) <br>
-* [ Merge Sort Sort](./1.Sort/6.MergeSort.go) <br>
-  * [Iterative Merge Sort](./1.Sort/7.IterativeMergeSort.go) <br>
-* [Quick Sort ](./1.Sort/8.QuickSort.go) <br>
-  * [Iterative Quick Sort](./1.Sort/9.IterativeQuickSort.go) <br>
-* [Heap sort](./1.Sort/10.HeapSort.go) <br>
-* [Counting Sort](./1.Sort/11.CountingSort.go) <br>
-* [Radix Sort](./1.Sort/12.RedixSort.go) <br>
-* [Bucket Sort](./1.Sort/13.BucketSort.go) <br>
-* [ShellSort](./1.Sort/14.ShellSort.go) <br>
-* [TimSort](./1.Sort/15.TimSort.go) <br>
-* [Comb Sort](./1.Sort/16.CombSort.go) <br>
-* [Pigeonhole Sort ](./1.Sort/17.PigeonholeSort.go) <br>
-* [Cycle Sort](./1.Sort/18.CycleSort.go) <br>
-* [Cocktail Sort](./1.Sort/19.CocktailSort.go) <br>
-* [Strand Sort](./1.Sort/20.StrandSort.go) <br>
-* [Bitonic Sort](./1.Sort/21.BitonicSort.go) <br>
-* [Pancake sorting](./1.Sort/1.SelectionSort.go) <br>
-* [Binary Insertion Sort](./1.Sort/1.SelectionSort.go) <br>
-* [BogoSort or Permutation Sort](./1.Sort/1.SelectionSort.go) <br>
-* [Gnome Sort](./1.Sort/1.SelectionSort.go) <br>
-* [Sleep Sort – The King of Laziness / Sorting while Sleeping](./1.Sort/1.SelectionSort.go) <br>
-* [Structure Sorting (By Multiple Rules) in C++](./1.Sort/1.SelectionSort.go) <br>
-* [Stooge Sort](./1.Sort/1.SelectionSort.go) <br>
-* [Tag Sort (To get both sorted and original)](./1.Sort/1.SelectionSort.go) <br>
-* [Tree Sort](./1.Sort/1.SelectionSort.go) <br>
-* [Cartesian Tree Sorting](./1.Sort/1.SelectionSort.go) <br>
-* [Odd-Even Sort / Brick Sort](./1.Sort/1.SelectionSort.go) <br>
-* [QuickSort on Singly Linked List](./1.Sort/1.SelectionSort.go) <br>
-* [QuickSort on Doubly Linked List](./1.Sort/1.SelectionSort.go) <br>
-* [3-Way QuickSort (Dutch National Flag)](./1.Sort/1.SelectionSort.go) <br>
-* [Merge Sort for Linked Lists](./1.Sort/1.SelectionSort.go) <br>
-* [Merge Sort for Doubly Linked List](./1.Sort/1.SelectionSort.go) <br>
-* [3-way Merge Sort](./1.Sort/1.SelectionSort.go) <br>
+  * [Recursive Insertion Sort](./4.Sort/5.RecursiveInsertionSort.go) <br>
+* [ Merge Sort Sort](./4.Sort/6.MergeSort.go) <br>
+  * [Iterative Merge Sort](./4.Sort/7.IterativeMergeSort.go) <br>
+* [Quick Sort ](./4.Sort/8.QuickSort.go) <br>
+  * [Iterative Quick Sort](./4.Sort/9.IterativeQuickSort.go) <br>
+* [Heap sort](./4.Sort/10.HeapSort.go) <br>
+* [Counting Sort](./4.Sort/11.CountingSort.go) <br>
+* [Radix Sort](./4.Sort/12.RedixSort.go) <br>
+* [Bucket Sort](./4.Sort/13.BucketSort.go) <br>
+* [ShellSort](./4.Sort/14.ShellSort.go) <br>
+* [TimSort](./4.Sort/15.TimSort.go) <br>
+* [Comb Sort](./4.Sort/16.CombSort.go) <br>
+* [Pigeonhole Sort ](./4.Sort/17.PigeonholeSort.go) <br>
+* [Cycle Sort](./4.Sort/18.CycleSort.go) <br>
+* [Cocktail Sort](./4.Sort/19.CocktailSort.go) <br>
+* [Strand Sort](./4.Sort/20.StrandSort.go) <br>
+* [Bitonic Sort](./4.Sort/21.BitonicSort.go) <br>
+* [Pancake sorting](./4.Sort/1.SelectionSort.go) <br>
+* [Binary Insertion Sort](./4.Sort/1.SelectionSort.go) <br>
+* [BogoSort or Permutation Sort](./4.Sort/1.SelectionSort.go) <br>
+* [Gnome Sort](./4.Sort/1.SelectionSort.go) <br>
+* [Sleep Sort – The King of Laziness / Sorting while Sleeping](./4.Sort/1.SelectionSort.go) <br>
+* [Structure Sorting (By Multiple Rules) in C++](./4.Sort/1.SelectionSort.go) <br>
+* [Stooge Sort](./4.Sort/1.SelectionSort.go) <br>
+* [Tag Sort (To get both sorted and original)](./4.Sort/1.SelectionSort.go) <br>
+* [Tree Sort](./4.Sort/1.SelectionSort.go) <br>
+* [Cartesian Tree Sorting](./4.Sort/1.SelectionSort.go) <br>
+* [Odd-Even Sort / Brick Sort](./4.Sort/1.SelectionSort.go) <br>
+* [QuickSort on Singly Linked List](./4.Sort/1.SelectionSort.go) <br>
+* [QuickSort on Doubly Linked List](./4.Sort/1.SelectionSort.go) <br>
+* [3-Way QuickSort (Dutch National Flag)](./4.Sort/1.SelectionSort.go) <br>
+* [Merge Sort for Linked Lists](./4.Sort/1.SelectionSort.go) <br>
+* [Merge Sort for Doubly Linked List](./4.Sort/1.SelectionSort.go) <br>
+* [3-way Merge Sort](./4.Sort/1.SelectionSort.go) <br>
 
-[comment]: <> (* [Selection]&#40;./1.Sort/1.SelectionSort.go&#41; <br>)
+[comment]: <> (* [Selection]&#40;./4.Sort/1.SelectionSort.go&#41; <br>)
 
  
   
