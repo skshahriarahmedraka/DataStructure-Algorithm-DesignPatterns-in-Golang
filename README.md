@@ -10,7 +10,7 @@
 
   1. Math
   2. String
-  3. Conversion 
+  3. Conversions 
   4. Sort
   5. Search
   6. Data structure
@@ -20,6 +20,23 @@
   10. Algorithm 
   11. Ciphers (encryptions)
   12. Design Pattern
+
+## 1. Math
+* [GCD](./1.Math/1.GCD.go)
+* [LCM](./1.Math/2.LCM.go)
+* [Modular Exponentiation](./1.Math/3.ModularExponentiation.go)
+* [Permutation](./1.Math/9.Permutation.go)
+* [Power](./1.Math/6.Power.go)
+* [Prime Check](./1.Math/4.PrimeCheck.go)
+* [Prime Generate](./1.Math/5.GeneratePrime.go)
+* [Pythagoras](./1.Math/7.Pythagoras.go)
+* [Tower Of Hanoi](./1.Math/8.towerOfHanoi.go)
+
+[comment]: <> (* [Sieve]&#40;./math/sieve/&#41;)
+
+## 3. Conversions
+* [Roman To Integer](./3.conversion/1.RomanToInt.go)
+
 ## 4. Sorting Algorithms :
 * [Selection Sort](./4.Sort/1.SelectionSort.go) <br>
 * [Bubble Sort](./4.Sort/2.bubbleSort.go) <br>
@@ -63,13 +80,5 @@
 [comment]: <> (* [Selection]&#40;./4.Sort/1.SelectionSort.go&#41; <br>)
 
 
-## Math
-* [Gcd](./math/gcd/)
-* [Lcm](./math/lcm/)
-* [Modular](./math/modular/)
-* [Permutation](./math/permutation/)
-* [Power](./math/power/)
-* [Prime](./math/prime/)
-* [Pythagoras](./math/pythagoras/)
-* [Sieve](./math/sieve/)
+
 
