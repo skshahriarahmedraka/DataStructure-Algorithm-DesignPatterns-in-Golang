@@ -18,7 +18,7 @@
   8. Tree
   9. Graph 
   10. Algorithm 
-  11. Ciphers (encryptions)
+  11. Cryptography/Ciphers (encryptions)
   12. Design Pattern
 
 ## 1. Math
@@ -79,12 +79,77 @@
 
 [comment]: <> (* [Selection]&#40;./4.Sort/1.SelectionSort.go&#41; <br>)
 
-##   11. Ciphers (encryptions)
+##   11. Cryptography/Ciphers (encryptions)
 
 * [Bcrypt](./11.Ciphers/2.bcrypt/main.go) <br>
 * [Scrypt](./11.Ciphers/3.Scrypt/main.go) <br>
 * [SHA](./11.Ciphers/4.sha/main.go) <br>
 * [hmac](./11.Ciphers/5.hmac/main.go) <br>
+
+##  12. Design Pattern
+* [Creational Patterns](./) <br>
+  * [Abstract Factory](./) <br>
+  * [Builder](./) <br>
+  * [Factory Method](./) <br>
+  * [Object Pool](./) <br>
+  * [Singleton](./) <br>
+* [Structural Patterns](./) <br>
+  * [Bridge](./) <br>
+  * [Composite](./) <br>
+  * [Decorator](./) <br>
+  * [Facade](./) <br>
+  * [Flyweight](./) <br>
+  * [Proxy](./) <br>
+* [Behavioral Patterns](./) <br>
+  * [Chain of Responsibility](./) <br>
+  * [Command](./) <br>
+  * [Mediator](./) <br>
+  * [Memento](./) <br>
+  * [Observer](./) <br>
+  * [Registry](./) <br>
+  * [State](./) <br>
+  * [Strategy](./) <br>
+  * [Template](./) <br>
+  * [Visitor](./) <br>
+* [Synchronization Patterns](./) <br>
+  * [Condition Variable](./) <br>
+  * [Lock/Mutex](./) <br>
+  * [Monitor](./) <br>
+  * [Read-Write Lock](./) <br>
+  * [Semaphore](./) <br>
+* [Concurrency Patterns](./) <br>
+  * [N-Barrier](./) <br>
+  * [Bounded Parallelism](./) <br>
+  * [Broadcast](./) <br>
+  * [Coroutines](./) <br>
+  * [Generators](./) <br>
+  * [Reactor](./) <br>
+  * [Parallelism](./) <br>
+  * [Producer Consumer](./) <br>
+* [Messaging Patterns](./) <br>
+  * [Fan-In](./) <br>
+  * [Fan-Out](./) <br>
+  * [Futures & Promises](./) <br>
+  * [Publish/Subscribe](./) <br>
+  * [Push & Pull](./) <br>
+* [Stability Patterns](./) <br>
+  * [Bulkheads](./) <br>
+  * [Circuit-Breaker](./) <br>
+  * [Deadline](./) <br>
+  * [Fail-Fast](./) <br>
+  * [Handshaking](./) <br>
+  * [Steady-State](./) <br>
+* [Profiling Patterns](./) <br>
+  * [Timing Functions](./) <br>
+* [Idioms](./) <br>
+  * [Functional Options](./) <br>
+* [Anti-Patterns](./) <br>
+  * [Cascading Failures](./) <br>
+
+
+
+
+
 
 
 
