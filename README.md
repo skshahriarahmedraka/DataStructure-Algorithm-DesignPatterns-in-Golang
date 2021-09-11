@@ -79,6 +79,12 @@
 
 [comment]: <> (* [Selection]&#40;./4.Sort/1.SelectionSort.go&#41; <br>)
 
+##   11. Ciphers (encryptions)
+
+* [Bcrypt](./11.Ciphers/2.bcrypt/main.go) <br>
+* [Scrypt](./11.Ciphers/3.Scrypt/main.go) <br>
+* [SHA](./11.Ciphers/4.sha/main.go) <br>
+* [hmac](./11.Ciphers/5.hmac/main.go) <br>
 
 
 
