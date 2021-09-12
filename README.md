@@ -73,63 +73,63 @@
 * [hmac](./11.Ciphers/5.hmac/main.go) <br>
 ##  12. Design Pattern
 * [Creational Patterns](./) <br>
-  * [Abstract Factory](./) <br>
-  * [Builder](./) <br>
-  * [Factory Method](./) <br>
-  * [Object Pool](./) <br>
-  * [Singleton](./) <br>
+  * [Abstract Factory](./) -Provides an interface for creating families of releated objects <br>
+  * [Builder](./) -Builds a complex object using simple objects<br>
+  * [Factory Method](./) -Defers instantiation of an object to a specialized function for creating instances <br>
+  * [Object Pool](./) -Instantiates and maintains a group of objects instances of the same type<br>
+  * [Singleton](./) -Restricts instantiation of a type to one object<br>
 * [Structural Patterns](./) <br>
-  * [Bridge](./) <br>
-  * [Composite](./) <br>
-  * [Decorator](./) <br>
-  * [Facade](./) <br>
-  * [Flyweight](./) <br>
-  * [Proxy](./) <br>
+  * [Bridge](./) -Decouples an interface from its implementation so that the two can vary independently<br>
+  * [Composite](./) -Encapsulates and provides access to a number of different objects<br>
+  * [Decorator](./) -Adds behavior to an object, statically or dynamically <br>
+  * [Facade](./) -Uses one type as an API to a number of others<br>
+  * [Flyweight](./) -Reuses existing instances of objects with similar/identical state to minimize resource usage<br>
+  * [Proxy](./) -Provides a surrogate for an object to control it's actions<br>
 * [Behavioral Patterns](./) <br>
-  * [Chain of Responsibility](./) <br>
-  * [Command](./) <br>
-  * [Mediator](./) <br>
-  * [Memento](./) <br>
-  * [Observer](./) <br>
-  * [Registry](./) <br>
-  * [State](./) <br>
-  * [Strategy](./) <br>
-  * [Template](./) <br>
-  * [Visitor](./) <br>
+  * [Chain of Responsibility](./) -Avoids coupling a sender to receiver by giving more than object a chance to handle the request<br>
+  * [Command](./) -Bundles a command and arguments to call later<br>
+  * [Mediator](./) -Connects objects and acts as a proxy<br>
+  * [Memento](./) -Generate an opaque token that can be used to go back to a previous state<br>
+  * [Observer](./) -Provide a callback for notification of events/changes to data<br>
+  * [Registry](./) -Keep track of all subclasses of a given class<br>
+  * [State](./) -Encapsulates varying behavior for the same object based on its internal state<br>
+  * [Strategy](./) -Enables an algorithm's behavior to be selected at runtime<br>
+  * [Template](./) -Defines a skeleton class which defers some methods to subclasses<br>
+  * [Visitor](./) -Separates an algorithm from an object on which it operates<br>
 * [Synchronization Patterns](./) <br>
-  * [Condition Variable](./) <br>
-  * [Lock/Mutex](./) <br>
-  * [Monitor](./) <br>
-  * [Read-Write Lock](./) <br>
-  * [Semaphore](./) <br>
+  * [Condition Variable](./) -Provides a mechanism for threads to temporarily give up access in order to wait for some condition <br>
+  * [Lock/Mutex](./) -Enforces mutual exclusion limit on a resource to gain exclusive access <br>
+  * [Monitor](./) -Combination of mutex and condition variable patterns<br>
+  * [Read-Write Lock](./) -Allows parallel read access, but only exclusive access on write operations to a resource <br>
+  * [Semaphore](./) -Allows controlling access to a common resource<br>
 * [Concurrency Patterns](./) <br>
-  * [N-Barrier](./) <br>
-  * [Bounded Parallelism](./) <br>
-  * [Broadcast](./) <br>
-  * [Coroutines](./) <br>
-  * [Generators](./) <br>
-  * [Reactor](./) <br>
-  * [Parallelism](./) <br>
-  * [Producer Consumer](./) <br>
+  * [N-Barrier](./) -Prevents a process from proceeding until all N processes reach to the barrier <br>
+  * [Bounded Parallelism](./) -Completes large number of independent tasks with resource limits<br>
+  * [Broadcast](./) -Transfers a message to all recipients simultaneously<br>
+  * [Coroutines](./) -Subroutines that allow suspending and resuming execution at certain locations <br>
+  * [Generators](./) -Yields a sequence of values one at a time<br>
+  * [Reactor](./) -Demultiplexes service requests delivered concurrently to a service handler and dispatches them syncronously to the associated request handlers<br>
+  * [Parallelism](./) -Completes large number of independent tasks<br>
+  * [Producer Consumer](./) -Separates tasks from task executions<br>
 * [Messaging Patterns](./) <br>
-  * [Fan-In](./) <br>
-  * [Fan-Out](./) <br>
-  * [Futures & Promises](./) <br>
-  * [Publish/Subscribe](./) <br>
-  * [Push & Pull](./) <br>
+  * [Fan-In](./) -Funnels tasks to a work sink (e.g. server)<br>
+  * [Fan-Out](./) -Distributes tasks among workers (e.g. producer) <br>
+  * [Futures & Promises](./) -Acts as a place-holder of a result that is initially unknown for synchronization purposes<br>
+  * [Publish/Subscribe](./) -Passes information to a collection of recipients who subscribed to a topic<br>
+  * [Push & Pull](./) -Distributes messages to multiple workers, arranged in a pipeline<br>
 * [Stability Patterns](./) <br>
-  * [Bulkheads](./) <br>
-  * [Circuit-Breaker](./) <br>
-  * [Deadline](./) <br>
-  * [Fail-Fast](./) <br>
-  * [Handshaking](./) <br>
-  * [Steady-State](./) <br>
+  * [Bulkheads](./) -Enforces a principle of failure containment (i.e. prevents cascading failures) <br>
+  * [Circuit-Breaker](./) -Stops the flow of the requests when requests are likely to fail<br>
+  * [Deadline](./) -Allows clients to stop waiting for a response once the probability of response becomes low (e.g. after waiting 10 seconds for a page refresh)<br>
+  * [Fail-Fast](./) -Checks the availability of required resources at the start of a request and fails if the requirements are not satisfied<br>
+  * [Handshaking](./) -Asks a component if it can take any more load, if it can't, the request is declined<br>
+  * [Steady-State](./) -For every service that accumulates a resource, some other service must recycle that resource<br>
 * [Profiling Patterns](./) <br>
-  * [Timing Functions](./) <br>
+  * [Timing Functions](./) -Wraps a function and logs the execution<br>
 * [Idioms](./) <br>
-  * [Functional Options](./) <br>
+  * [Functional Options](./) -Allows creating clean APIs with sane defaults and idiomatic overrides<br>
 * [Anti-Patterns](./) <br>
-  * [Cascading Failures](./) -Provides an interface for creating families of releated objects<br>
+  * [Cascading Failures](./) -A failure in a system of interconnected parts in which the failure of a part causes a domino effect<br>
 
 
 

@@ -1,3 +1,12 @@
+/*
+ * Name : sk shahriar ahmed raka
+ * Email : skshahriarahmedraka@gmail.com
+ * Telegram : https://www.t.me/shahriarraka
+ * Github : https://github.com/skshahriarahmedraka
+ */
+
+
+
 package main
 
 import (
@@ -9,12 +18,31 @@ import (
 	"strings"
 )
 
+
+
 func CheckError(err error){
 	if err != nil{
 		log.Fatalln(err)
 	}
 }
-func Sort(arr *[]int, n int ) {
+func heapify(arr *[]int,n,i int){
+	largest :=i
+	l:= 2*i+1
+	r:=2*i+2
+
+	if l<n && (*arr) {
+
+	}
+}
+func Sort(arr *[]int ) {
+
+	n := len(*arr)
+	for i:=int(n/2)-1 ;i>=0;i--{
+		heapify(arr,n,i)
+	}
+	for i:=n-1 ;i>=0 ;i++{
+		heapify(arr,i,0)
+	}
 }
 func main (){
 	fmt.Printf("Want to give array of numbers (y/n): ")

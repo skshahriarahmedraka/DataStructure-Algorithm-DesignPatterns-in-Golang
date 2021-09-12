@@ -14,7 +14,29 @@ func CheckError(err error){
 		log.Fatalln(err)
 	}
 }
-func Sort(arr *[]int, n int ) {
+func IterativePartition(start ,end int , arr *[]int)int{
+	i:=(start -1)
+	pivot := (*arr)[end]
+
+	for j:= start ; j<end ;j++{
+		if (*arr)[j] <= pivot {
+			i+=1
+			(*arr)[i],(*arr)[j]=(*arr)[j],(*arr)[i]
+		}
+	}
+	(*arr)[i+1],(*arr)[end]=(*arr)[end],(*arr)[i+1]
+
+	return (i+1)
+
+}
+func IterativeQuickSort(start,end int ,arr *[]int ) {
+	if (start <end){
+		p:= IterativePartition(start,end,arr)
+		IterativeQuickSort(start,p-1,arr)
+		IterativeQuickSort(p+1,end,arr)
+	}
+
+
 }
 func main (){
 	fmt.Printf("Want to give array of numbers (y/n): ")
@@ -41,6 +63,6 @@ func main (){
 		fmt.Println("Sample array : ",arr)
 	}
 
-	Sort(&arr,len(arr))
+	IterativeQuickSort(0,len(arr)-1,&arr)
 	fmt.Println("RecursiveInsertionSort  Sorted array : ",arr)
 }
