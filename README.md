@@ -5,22 +5,14 @@
 [comment]: <> (Data structure, Ciphers, Conversions,Design Patterns,Dynamic Programming,Genetic Algorithm,)
 
 [comment]: <> (Graphs,Tree,Math,Search, Sorts, String)
+<a href="https://img.shields.io/badge/license-MIT-green"><img alt="build-status" src="https://img.shields.io/badge/license-MIT-green" /></a>
+<a href="https://www.t.me/shahriarraka"><img alt="build-status" src="https://img.shields.io/badge/telegram-shahriarahmed-red" /></a>
 
-## List of structure & Algorithms
+## List of Content :
 
-  1. Math
-  2. String
-  3. Conversions 
-  4. Sort
-  5. Search
-  6. Data structure
-  7. Dynamic programming
-  8. Tree
-  9. Graph 
-  10. Algorithm 
-  11. Cryptography/Ciphers (encryptions)
-  12. Design Pattern
+> **1. Math** - **2. String** - **3. Conversions** - **4. Sort** - **5. Search** - **6. Data structure** - **7. Dynamic programming** - **8. Tree** - **9. Graph** - **10. Algorithm** - **11. Cryptography/Ciphers (encryptions)** - **12. Design Pattern**
 
+---
 ## 1. Math
 * [GCD](./1.Math/1.GCD.go)
 * [LCM](./1.Math/2.LCM.go)
@@ -33,10 +25,8 @@
 * [Tower Of Hanoi](./1.Math/8.towerOfHanoi.go)
 
 [comment]: <> (* [Sieve]&#40;./math/sieve/&#41;)
-
 ## 3. Conversions
 * [Roman To Integer](./3.conversion/1.RomanToInt.go)
-
 ## 4. Sorting Algorithms :
 * [Selection Sort](./4.Sort/1.SelectionSort.go) <br>
 * [Bubble Sort](./4.Sort/2.bubbleSort.go) <br>
@@ -76,16 +66,11 @@
 * [Merge Sort for Linked Lists](./4.Sort/36.Merge%20Sort%20for%20Linked%20Lists.go) <br>
 * [Merge Sort for Doubly Linked List](./4.Sort/37.Merge%20Sort%20for%20Doubly%20Linked%20List.go) <br>
 * [3-way Merge Sort](./4.Sort/38.3-way%20Merge%20Sort.go) <br>
-
-[comment]: <> (* [Selection]&#40;./4.Sort/1.SelectionSort.go&#41; <br>)
-
 ##   11. Cryptography/Ciphers (encryptions)
-
 * [Bcrypt](./11.Ciphers/2.bcrypt/main.go) <br>
 * [Scrypt](./11.Ciphers/3.Scrypt/main.go) <br>
 * [SHA](./11.Ciphers/4.sha/main.go) <br>
 * [hmac](./11.Ciphers/5.hmac/main.go) <br>
-
 ##  12. Design Pattern
 * [Creational Patterns](./) <br>
   * [Abstract Factory](./) <br>
@@ -144,7 +129,7 @@
 * [Idioms](./) <br>
   * [Functional Options](./) <br>
 * [Anti-Patterns](./) <br>
-  * [Cascading Failures](./) <br>
+  * [Cascading Failures](./) -Provides an interface for creating families of releated objects<br>
 
 
 
