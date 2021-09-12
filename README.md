@@ -66,11 +66,107 @@
 * [Merge Sort for Linked Lists](./4.Sort/36.Merge%20Sort%20for%20Linked%20Lists.go) <br>
 * [Merge Sort for Doubly Linked List](./4.Sort/37.Merge%20Sort%20for%20Doubly%20Linked%20List.go) <br>
 * [3-way Merge Sort](./4.Sort/38.3-way%20Merge%20Sort.go) <br>
+## 5. Search
+* [Linear Search](./)
+* [Binary Search](./)
+* [Interpolation Search](./)
+## 6. Data structure
+
+[comment]: <> (* [AVL Tree]&#40;./&#41;)
+* [Dynamic Array](./)
+* [Linked-List](./)
+  * [Doubly Linked List](./)
+  * [Singly Linked List](./)
+  * [Cyclic Linked List AKA Looped Linked List](./)
+* [Queue](./)
+  * [Array Based](./)
+  * [Custom Linked List Based](./)
+  * [Standard Library Container/List Based](./)
+* [Set](./)
+* [Stack](./)
+  * [Array Based](./)
+  * [Custom Linked List](./)
+  * [Standard Library Container/List Based](./)
+* [Trie](./)
+* [Binary Tree](./)
+* [Hashmap](./)
+
+
+## 7. Dynamic programming
+Dynamic programming : 80
+
+* 0-1 knapsack problem - 6
+  * Subset sum
+  * Equal sum partition
+  * Count of subset sum
+  * Minimum subset sum diff
+  * Target sum
+  * \# of subset & genis
+
+* Unbound knapsack problem - 5
+* Fibonacci - 7
+* Longest common subsequence (LCS) - 15
+* Longest increasing subsequence (LIS) - 10
+* Kadane’s algorithm - 6
+* Matrix chain multiplication - 7
+* DP on trees - 4
+* DP on grid  - 14
+* Others - 5
+
+## 8. Tree 
+## 9. Graph 
+## 10. Algorithm
+Link list
+
+
+
+Heap
+heapify
+
+Sorting
+Marge sort
+Quick sort
+
+Divide and conquer
+Knapsack
+Huffman coding
+Prims and kuskals
+Dijkstra
+Greedy
+Multi stage graph
+Floyd warshall
+Belmanford
+Dynamic programming
+Graph
+Hamiltonian cycle
+Robin karp
+
+Binary tree
+Binary search tree
+AVL tree
+B tree  and B+ tree
+DFS
+BFS
+
+Hashing
+
+Tower of hanoi
+
+Single source shortest path
+
+
+
 ##   11. Cryptography/Ciphers (encryptions)
 * [Bcrypt](./11.Ciphers/2.bcrypt/main.go) <br>
 * [Scrypt](./11.Ciphers/3.Scrypt/main.go) <br>
 * [SHA](./11.Ciphers/4.sha/main.go) <br>
 * [hmac](./11.Ciphers/5.hmac/main.go) <br>
+* [Caesar](./)
+* [Diffie Hellman Key Exchange](./)
+* [Polybius](./)
+* [Rot13](./)
+* [Rsa](./)
+* [Xor](./)
 ##  12. Design Pattern
 * [Creational Patterns](./) <br>
   * [Abstract Factory](./) -Provides an interface for creating families of releated objects <br>
