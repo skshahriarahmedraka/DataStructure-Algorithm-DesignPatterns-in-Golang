@@ -60,6 +60,15 @@ func InOrder(n *Node){
 	}
 }
 
+func InOrderSuccessor(root *Node )*Node{
+	cur := root
+	for cur.LeftNode!=nil {
+		cur =cur.LeftNode
+	}
+	return cur
+}
+
+
 func BstDelete(root *Node,val int)*Node {
 	if root ==nil {
 		return nil
@@ -76,10 +85,74 @@ func BstDelete(root *Node,val int)*Node {
 		}else {
 			n:= root.RightNode
 			d:= InOrderSuccessor(n)
-			d.
+			d.LeftNode =root.LeftNode
+			return root.RightNode
+		}
+	}
+	return root
+}
+
+func PreOrder(n *Node){
+	if n==nil {
+		return
+	}
+	fmt.Print(n.Value ," ")
+	PreOrder(n.LeftNode)
+	PreOrder(n.RightNode)
+}
+
+func PostOrder (n *Node){
+	if n==nil {
+		return
+	}
+	PostOrder(n.LeftNode)
+	PostOrder(n.RightNode)
+	fmt.Print(n.Value ," ")
+}
+
+func LevelOrder(root *Node){
+	var q []*Node
+	var n *Node
+	q=append(q,root)
+	for len(q)!= 0 {
+		n,q =q[0], q[1:]
+		fmt.Print(n.Value," ")
+		if n.RightNode!=nil{
+			q=append(q,n.RightNode )
 		}
 	}
 }
+
+func AccessNodesByLayer(root *Node) [][]int{
+	var res [][]int
+	if root ==nil {
+		return res
+	}
+	var q []*Node
+	var n *Node
+	var idx =0
+	q= append(q,root)
+	for len(q)!= 0 {
+		res = append(res,[]int{})
+		qlen := len(q)
+		for i:= 0 ;i<qlen;i++{
+			n,q=q[0],q[1:]
+			res[idx] =append(res[idx],n.Value)
+			if n.LeftNode !=nil {
+				q=append(q,n.LeftNode)
+			}
+			if n.RightNode != nil{
+				q = append(q,n.RightNode)
+			}
+
+		}
+		idx++
+
+	}
+	return res
+
+}
+
 
 
 func main(){

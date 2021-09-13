@@ -72,24 +72,44 @@
 * [Interpolation Search](./)
 ## 6. Data structure
 
-[comment]: <> (* [AVL Tree]&#40;./&#41;)
 * [Dynamic Array](./)
 * [Linked-List](./)
   * [Doubly Linked List](./)
   * [Singly Linked List](./)
   * [Cyclic Linked List AKA Looped Linked List](./)
+* [Stack](./)
+  * [Array Based](./)
+  * [Custom Linked List](./)
+  * [Standard Library Container/List Based](./)
 * [Queue](./)
   * [Array Based](./)
   * [Custom Linked List Based](./)
   * [Standard Library Container/List Based](./)
 * [Set](./)
-* [Stack](./)
-  * [Array Based](./)
-  * [Custom Linked List](./)
-  * [Standard Library Container/List Based](./)
+
 * [Trie](./)
 * [Binary Tree](./)
+* [Binary Search Tree](./)
 * [Hashmap](./)
+* [AVL](./)
+* [B Tree](./)
+* [B+ Tree](./)
+* [Hash Table](./)
+* [Dictionary](./)
+* [Graph](./)
+* Heap:
+
+  Binary Heap
+  Why is Binary Heap Preferred over BST for Priority Queue?
+  Binomial Heap
+  Fibonacci Heap
+  Heap Sort
+  K’th Largest Element in an array
+  Sort an almost sorted array/
+  Tournament Tree (Winner Tree) and Binary Heap
+
+
+
 
 
 ## 7. Dynamic programming
@@ -114,8 +134,332 @@ Dynamic programming : 80
 * Others - 5
 
 ## 8. Tree 
+https://en.wikipedia.org/wiki/List_of_data_structures
+        Linked List Advantages
+        What is Data Structure
+        Heap Data Structure
+        Types of Trees in Data Structure
+        AVL Tree in Data Structure
+        B Tree in Data Structure
+        B+ Tree in Data Structure
+        DFS Algorithm
+        BFS Algorithm
+        Arrays in Data Structure
+        Graph in Data Structure
+        Graph Representation
+        Breadth First Search
+        Depth Limited Search
+        
+        Pointers in Data Structure
+        Types of Graph in Data Structure
+       
+        
+        Tree Traversal in Data Structure
+        Tree Traversal Techniques
+        
+        Splay Tree in Data Structure
+        Spanning Tree Algorithm
+        Sparse Matrix in Data Structure
+        
+        Skip List Data Structure
+        
+        Kruskal’s Algorithm
+        Prim’s Algorithm
+        BFS VS DFS
+        BCNF
+        Skip List
+
+
+
+Trees and Tree Algorithms
+
+[comment]: <> (https://runestone.academy/runestone/books/published/pythonds/Trees/toctree.html)
+    7.1. Objectives
+    7.2. Examples of Trees
+    7.3. Vocabulary and Definitions
+    7.4. List of Lists Representation
+    7.5. Nodes and References
+    7.6. Parse Tree
+    7.7. Tree Traversals
+    7.8. Priority Queues with Binary Heaps
+    7.9. Binary Heap Operations
+    7.10. Binary Heap Implementation
+        7.10.1. The Structure Property
+        7.10.2. The Heap Order Property
+        7.10.3. Heap Operations
+    7.11. Binary Search Trees
+    7.12. Search Tree Operations
+    7.13. Search Tree Implementation
+    7.14. Search Tree Analysis
+    7.15. Balanced Binary Search Trees
+    7.16. AVL Tree Performance
+    7.17. AVL Tree Implementation
+    7.18. Summary of Map ADT Implementations
+    7.19. Summary
+    7.20. Key Terms
+    7.21. Discussion Questions
+    7.22. Programming Exercises
+
+
+
+
+
+
 ## 9. Graph 
+
+Introduction, DFS and BFS :
+
+    Graph and its representations
+    Breadth First Traversal for a Graph
+    Depth First Traversal for a Graph
+    Applications of Depth First Search
+    Applications of Breadth First Traversal
+    Graph representations using set and hash
+    Find Mother Vertex in a Graph
+    Transitive Closure of a Graph using DFS
+    Find K cores of an undirected Graph
+    Iterative Depth First Search
+    Count the number of nodes at given level in a tree using BFS
+    Count all possible paths between two vertices
+    Minimum initial vertices to traverse whole matrix with given conditions
+    Shortest path to reach one prime to other by changing single digit at a time
+    Water Jug problem using BFS
+    Count number of trees in a forest
+    BFS using vectors & queue as per the algorithm of CLRS
+    Level of Each node in a Tree from source node
+    Construct binary palindrome by repeated appending and trimming
+    Transpose graph
+    Path in a Rectangle with Circles
+    Height of a generic tree from parent array
+    BFS using STL for competitive coding
+    DFS for a n-ary tree (acyclic graph) represented as adjacency list
+    Maximum number of edges to be added to a tree so that it stays a Bipartite graph
+    A Peterson Graph Problem
+    Implementation of Graph in JavaScript
+    Print all paths from a given source to a destination using BFS
+    Minimum number of edges between two vertices of a Graph
+    Count nodes within K-distance from all nodes in a set
+    Bidirectional Search
+    Minimum edge reversals to make a root
+    BFS for Disconnected Graph
+    Move weighting scale alternate under given constraints
+    Best First Search (Informed Search)
+    Number of pair of positions in matrix which are not accessible
+    Maximum product of two non-intersecting paths in a tree
+    Delete Edge to minimize subtree sum difference
+    Find the minimum number of moves needed to move from one cell of matrix to another
+    Minimum steps to reach target by a Knight | Set 1
+    Minimum number of operation required to convert number x into y
+    Minimum steps to reach end of array under constraints
+    Find the smallest binary digit multiple of given number
+    Roots of a tree which give minimum height
+    Stepping Numbers
+    Clone an Undirected Graph
+    Sum of the minimum elements in all connected components of an undirected graph
+    Check if two nodes are on same path in a tree
+    A matrix probability question
+    Find length of the largest region in Boolean Matrix
+    Iterative Deepening Search(IDS) or Iterative Deepening Depth First Search(IDDFS)
+
+Graph Cycle :
+
+    Detect Cycle in a Directed Graph
+    Detect cycle in an undirected graph
+    Detect cycle in a direct graph using colors
+    Assign directions to edges so that the directed graph remains acyclic
+    Detect a negative cycle in a Graph | (Bellman Ford)
+    Cycles of length n in an undirected and connected graph
+    Detecting negative cycle using Floyd Warshall
+    Check if there is a cycle with odd weight sum in an undirected graph
+    Check if a graphs has a cycle of odd length
+    Clone a Directed Acyclic Graph
+    Check loop in array according to given constraints
+    Disjoint Set (Or Union-Find) | Set 1
+    Union-Find Algorithm | Set 2
+    Union-Find Algorithm | (Union By Rank and Find by Optimized Path Compression)
+    Magical Indices in an array
+
+Topological Sorting :
+
+    Topological Sorting
+    All topological sorts of a Directed Acyclic Graph
+    Kahn’s Algorithm for Topological Sorting
+    Maximum edges that can be added to DAG so that is remains DAG
+    Longest path between any pair of vertices
+    Longest Path in a Directed Acyclic Graph
+    Longest Path in a Directed Acyclic Graph | Set 2
+    Topological Sort of a graph using departure time of vertex
+    Given a sorted dictionary of an alien language, find order of characters
+
+Minimum Spanning Tree :
+
+    Prim’s Minimum Spanning Tree (MST))
+    Applications of Minimum Spanning Tree Problem
+    Prim’s MST for Adjacency List Representation
+    Kruskal’s Minimum Spanning Tree Algorithm
+    Boruvka’s algorithm for Minimum Spanning Tree
+    Minimum cost to connect all cities
+    Steiner Tree
+    Reverse Delete Algorithm for Minimum Spanning Tree
+    Total number of Spanning Trees in a Graph
+    Minimum Product Spanning Tree
+
+BackTracking :
+
+    Find if there is a path of more than k length from a source
+    Tug of War
+    The Knight-Tour Problem
+    Rat in a Maze
+    n-Queen’s Problem
+    m Coloring Problem
+    Hamiltonian Cycle
+    Permutation of numbers such that sum of two consecutive numbers is a perfect square
+
+Shortest Paths :
+
+
+    Dijkstra’s shortest path algorithm
+    Dijkstra’s Algorithm for Adjacency List Representation
+    Bellman–Ford Algorithm
+    Floyd Warshall Algorithm
+    Johnson’s algorithm for All-pairs shortest paths
+    Shortest Path in Directed Acyclic Graph
+    Shortest path with exactly k edges in a directed and weighted graph
+    Dial’s Algorithm
+    Printing paths in Dijsktra’s Algorithm
+    Shortest path of a weighted graph where weight is 1 or 2
+    Multistage Graph (Shortest Path)
+    Shortest path in an unweighted graph
+    Minimize the number of weakly connected nodes
+    Betweenness Centrality (Centrality Measure)
+    Comparison of Dijkstra’s and Floyd–Warshall algorithms
+    Karp’s minimum mean (or average) weight cycle algorithm
+    0-1 BFS (Shortest Path in a Binary Weight Graph)
+    Find minimum weight cycle in an undirected graph
+    Minimum Cost Path with Left, Right, Bottom and Up moves allowed
+    Minimum edges to reverse to make path from a src to a dest
+    Find Shortest distance from a guard in a Bank
+
+Connectivity :
+
+
+    Find if there is a path between two vertices in a directed graph
+    Connectivity in a directed graph
+    Articulation Points (or Cut Vertices) in a Graph
+    Biconnected Components
+    Biconnected graph
+    Bridges in a graph
+    Eulerian path and circuit
+    Fleury’s Algorithm for printing Eulerian Path or Circuit
+    Strongly Connected Components
+    Transitive closure of a graph
+    Find the number of islands
+    Find the number of Islands | Set 2 (Using Disjoint Set)
+    Count all possible walks from a source to a destination with exactly k edges
+    Euler Circuit in a Directed Graph
+    Count the number of non-reachable nodes
+    Find the Degree of a Particular vertex in a Graph
+    Check if a given graph is tree or not
+    Minimum edges required to add to make Euler Circuit
+    Eulerian Path in undirected graph
+    Find if there is a path of more than k length
+    Length of shortest chain to reach the target word
+    Print all paths from a given source to destination
+    Find minimum cost to reach destination using train
+    Find if an array of strings can be chained to form a circle | Set 1
+    Find if an array of strings can be chained to form a circle | Set 2
+    Tarjan’s Algorithm to find strongly connected Components
+    Number of loops of size k starting from a specific node
+    Paths to travel each nodes using each edge (Seven Bridges of Königsberg)
+    Number of cyclic elements in an array where we can jump according to value
+    Number of groups formed in a graph of friends
+    Minimum cost to connect weighted nodes represented as array
+    Count single node isolated sub-graphs in a disconnected graph
+    Calculate number of nodes between two vertices in an acyclic Graph by Disjoint Union method
+    Dynamic Connectivity | Set 1 (Incremental)
+    Check if a graph is strongly connected | Set 1 (Kosaraju using DFS)
+    Check if a given directed graph is strongly connected | Set 2 (Kosaraju using BFS)
+    Check if removing a given edge disconnects a graph
+    Find all reachable nodes from every node present in a given set
+    Connected Components in an undirected graph
+    k’th heaviest adjacent node in a graph where each vertex has weight
+
+Maximum Flow :
+
+    Ford-Fulkerson Algorithm for Maximum Flow Problem
+    Find maximum number of edge disjoint paths between two vertices
+    Find minimum s-t cut in a flow network
+    Maximum Bipartite Matching
+    Channel Assignment Problem
+    Push Relabel- Set 1-Introduction
+    Push Relabel- Set 2- Implementation
+    Karger’s Algorithm- Set 1- Introduction and Implementation
+    Karger’s Algorithm- Set 2 – Analysis and Applications
+    Dinic’s algorithm for Maximum Flow
+    Max Flow Problem Introduction
+
+STL Implementation of Algorithms :
+
+    Kruskal’s Minimum Spanning Tree using STL in C++
+    Prim’s Algorithm using Priority Queue STL
+    Dijkstra’s Shortest Path Algorithm using STL
+    Dijkstra’s Shortest Path Algorithm using set in STL
+    Graph implementation using STL for competitive programming | Set 2 (Weighted graph)
+
+Hard Problems :
+
+    Graph Coloring (Introduction and Applications)
+    Greedy Algorithm for Graph Coloring
+    Traveling Salesman Problem (TSP) Implementation
+    Travelling Salesman Problem (Naive and Dynamic Programming)
+    Travelling Salesman Problem (Approximate using MST)
+    Vertex Cover Problem | Set 1 (Introduction and Approximate Algorithm)
+    K Centers Problem | Set 1 (Greedy Approximate Algorithm)
+    Erdos Renyl Model (for generating Random Graphs)
+    Clustering Coefficient in Graph Theory
+    Chinese Postman or Route Inspection | Set 1 (introduction)
+    Hierholzer’s Algorithm for directed graph
+
+Misc :
+
+    Number of triangles in an undirected Graph
+    Number of triangles in directed and undirected Graph
+    Check whether a given graph is Bipartite or not
+    Snake and Ladder Problem
+    Minimize Cash Flow among a given set of friends who have borrowed money from each other
+    Boggle (Find all possible words in a board of characters)
+    Hopcroft Karp Algorithm for Maximum Matching-Introduction
+    Hopcroft Karp Algorithm for Maximum Matching-Implementation
+    Minimum Time to rot all oranges
+    Find same contents in a list of contacts
+    Hypercube Graph
+    Check for star graph
+    Optimal read list for a given number of days
+    Print all jumping numbers smaller than or equal to a given value
+    Fibonacci Cube Graph
+    Barabasi Albert Graph (for Scale Free Models)
+    Construct a graph from given degrees of all vertices
+    Degree Centrality (Centrality Measure)
+    Katz Centrality (Centrality Measure)
+    Mathematics | Graph theory practice questions
+    2-Satisfiability (2-SAT) Problem
+    Determine whether a universal sink exists in a directed graph
+    Number of sink nodes in a graph
+    Largest subset of Graph vertices with edges of 2 or more colors
+    NetworkX : Python software package for study of complex networks
+    Generate a graph using Dictionary in Python
+    Count number of edges in an undirected graph
+    Two Clique Problem (Check if Graph can be divided in two Cliques)
+    Check whether given degrees of vertices represent a Graph or Tree
+    Finding minimum vertex cover size of a graph using binary search
+    Stable Marriage Problem
+    Sum of dependencies in a graph
+
+
 ## 10. Algorithm
+
+[comment]: <> (https://en.wikipedia.org/wiki/List_of_algorithms)
+
 Link list
 
 
