@@ -14,7 +14,34 @@ func CheckError(err error){
 		log.Fatalln(err)
 	}
 }
-func Sort(arr *[]int, n int ) {
+func CountingSort(arr *string, n int ) string {
+	var lenArr,count []int
+	var ans []string
+	for i:=0;i<n;i++{
+		lenArr=append(lenArr,0)
+	}
+	for i:=0;i<257;i++{
+		count=append(count,0)
+	}
+
+	for i:=0;i<n;i++{
+		ans=append(ans,"")
+	}
+
+	for i:=0 ; i<n ;i++{
+		count[int((*arr)[i])]+=1
+	}
+	var s []string
+	for i:=1;i<257;i++{
+		if count[i]>0{
+			s=append(s,strings.Repeat(string(i),count[i]))
+		}
+	}
+	ss:= strings.Join(s,"")
+
+return ss
+
+
 }
 func main (){
 	fmt.Printf("Want to give array of numbers (y/n): ")
@@ -40,7 +67,7 @@ func main (){
 		arr =append(arr, 2,9,3,6,2,4,4,0)
 		fmt.Println("Sample array : ",arr)
 	}
-
-	Sort(&arr,len(arr))
-	fmt.Println("RecursiveInsertionSort  Sorted array : ",arr)
+	arr2:="bcdar"
+	ss:=CountingSort(&arr2,len(arr2))
+	fmt.Println("RecursiveInsertionSort  Sorted array : ",ss)
 }

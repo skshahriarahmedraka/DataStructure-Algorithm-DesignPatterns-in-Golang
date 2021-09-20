@@ -292,6 +292,18 @@ Topological Sorting :
     Given a sorted dictionary of an alien language, find order of characters
 
 Minimum Spanning Tree :
+* [README.md](./)
+* [Spaning Tree](./)
+  * [Minimum Cost Spaning Tree](./)
+  * [Shortest Path Tree](./)
+    * [Prim's Algorithm](./)
+    * [Kruskals's Algorithm  { O(|V|*|E|) }](./)
+    * [Kruskals's Algorithm { O(|V|* log|E|)}](./)
+    * [Dijkstra Algorithm](./)
+
+
+
+
 
     Prim’s Minimum Spanning Tree (MST))
     Applications of Minimum Spanning Tree Problem
