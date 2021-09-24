@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"strconv"
+	//"strconv"
 	"strings"
 )
 
@@ -44,30 +44,28 @@ return ss
 
 }
 func main (){
-	fmt.Printf("Want to give array of numbers (y/n): ")
+	fmt.Printf("Want to give string (y/n): ")
 	var (
 		y string
-		arr []int
+		//arr []string
+		s2 string
 	)
 	fmt.Scanln(&y)
 	if y=="y"{
-		fmt.Printf("array of numbers : ")
+		fmt.Printf("string : ")
 		b,_,err:=bufio.NewReader(os.Stdin).ReadLine()
 		CheckError(err)
 		s:= string(b)
 		if len(s)!=0 {
-			s2:= strings.Split(s," ")
-			for i:=0; i<len(s2);i++{
-				a,err:=strconv.Atoi(s2[i])
-				CheckError(err)
-				arr=append(arr,a)
-			}
+			//s2:= strings.Split(s," ")
+			s2= strings.Replace(s, " ", "", -1)
+
 		}
 	}else {
-		arr =append(arr, 2,9,3,6,2,4,4,0)
-		fmt.Println("Sample array : ",arr)
+		s2="sk shahriar ahmed raka"
+		fmt.Println("Sample array : ",s2)
 	}
-	arr2:="bcdar"
-	ss:=CountingSort(&arr2,len(arr2))
-	fmt.Println("RecursiveInsertionSort  Sorted array : ",ss)
+
+	ss:=CountingSort(&s2,len(s2))
+	fmt.Println("CountingSort  Sorted array : ",ss)
 }

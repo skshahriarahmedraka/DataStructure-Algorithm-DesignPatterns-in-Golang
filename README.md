@@ -23,10 +23,26 @@
 * [Prime Generate](./1.Math/5.GeneratePrime.go)
 * [Pythagoras](./1.Math/7.Pythagoras.go)
 * [Tower Of Hanoi](./1.Math/8.towerOfHanoi.go)
+* [Python like list sort function](./1.Math/)
+
 
 [comment]: <> (* [Sieve]&#40;./math/sieve/&#41;)
-## 3. Conversions
-* [Roman To Integer](./3.conversion/1.RomanToInt.go)
+## 3. Conversions & input 
+* [Input Different types ](3.conversion&input/1.input%20Different%20types.go)
+* [Input Slice](3.conversion&input/2.input%20Slice.go)
+* [Input 2d Slice](3.conversion&input/3.input%202d%20Slice.go)
+
+[comment]: <> (* [input ]&#40;3.conversion&input/&#41;)
+
+* [Byte to int,float,string,boolean,complex,slice](3.conversion&input/)
+* [Int to byte,float,string,boolean,complex,slice](3.conversion&input/)
+* [Float to byte,int,string,boolean,complex,slice](3.conversion&input/)
+* [String to byte,int,float,boolean,complex,slice](3.conversion&input/)
+* [Boolean to byte,int,float,string,complex,slice](3.conversion&input/)
+* [complex to byte,int,float,string,boolean,slice](3.conversion&input/)
+* [slice to byte,int,float,string,boolean,complex](3.conversion&input/)
+
+* [Roman To Integer](3.conversion&input/1.RomanToInt.go)
 ## 4. Sorting Algorithms :
 * [Selection Sort](./4.Sort/1.SelectionSort.go) <br>
 * [Bubble Sort](./4.Sort/2.bubbleSort.go) <br>
@@ -472,7 +488,9 @@ Misc :
 
 [comment]: <> (https://en.wikipedia.org/wiki/List_of_algorithms)
 
-Link list
+* [Rabin-Karp Algorithm  ](./10.Algorithm/Rabin-Karp Algorithm.go)
+  Link list
+
 
 
 
