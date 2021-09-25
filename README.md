@@ -29,12 +29,15 @@
 [comment]: <> (* [Sieve]&#40;./math/sieve/&#41;)
 ## 3. Conversions & input 
 * [Input Different types ](3.conversion&input/1.input%20Different%20types.go)
+* [Input any type ](3.conversion&input/4.input%20any%20type.go)
 * [Input Slice](3.conversion&input/2.input%20Slice.go)
-* [Input 2d Slice](3.conversion&input/3.input%202d%20Slice.go)
+* [Input 2d Slice of any type](3.conversion&input/3.input%202d%20Slice%20of%20any%20type.go)
+* [Sort Struct](3.conversion&input/5.sort%20struct%20.go)
+* [Sort 2D Slice](3.conversion&input/6.Sort%202d%20slice.go)
 
 [comment]: <> (* [input ]&#40;3.conversion&input/&#41;)
 
-* [Byte to int,float,string,boolean,complex,slice](3.conversion&input/)
+* [Byte to int,float,string,boolean,complex,slice](3.conversion&input/7.byte%20to%20All.go)
 * [Int to byte,float,string,boolean,complex,slice](3.conversion&input/)
 * [Float to byte,int,string,boolean,complex,slice](3.conversion&input/)
 * [String to byte,int,float,boolean,complex,slice](3.conversion&input/)
