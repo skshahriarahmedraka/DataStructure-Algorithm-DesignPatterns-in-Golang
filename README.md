@@ -109,13 +109,13 @@
 * [Trie](./)
 * [Binary Tree](./)
 * [Binary Search Tree](./)
-* [Hashmap](./)
-* [AVL](./)
-* [B Tree](./)
-* [B+ Tree](./)
-* [Hash Table](./)
-* [Dictionary](./)
-* [Graph](./)
+
+[comment]: <> (* [AVL]&#40;./&#41;)
+
+[comment]: <> (* [B Tree]&#40;./&#41;)
+
+[comment]: <> (* [B+ Tree]&#40;./&#41;)
+
 * Heap:
 
   Binary Heap
@@ -126,7 +126,10 @@
   K’th Largest Element in an array
   Sort an almost sorted array/
   Tournament Tree (Winner Tree) and Binary Heap
-
+* [Hashmap](./)
+* [Hash Table](./)
+* [Dictionary](./)
+* [Graph](./)
 
 
 
@@ -135,7 +138,8 @@
 Dynamic programming : 80
 
 * 0-1 knapsack problem - 6
-  * Subset sum
+  * [Subset sum](./7.DynamicProgramming/Subset%20Sum%20Problem.go)
+
   * Equal sum partition
   * Count of subset sum
   * Minimum subset sum diff
