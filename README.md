@@ -86,7 +86,9 @@
 * [Merge Sort for Doubly Linked List](./4.Sort/37.Merge%20Sort%20for%20Doubly%20Linked%20List.go) <br>
 * [3-way Merge Sort](./4.Sort/38.3-way%20Merge%20Sort.go) <br>
 ## 5. Search
-* [Linear Search](./)
+* [Linear Search](./5.Search/1.LinearSearch.go)
+* [Binary Search in Array using Recurtion](./5.Search/2.Binarysearch%20in%20Array-recursive.go)
+* [Binary Search in Array using loop](./5.Search/2.Binarysearch%20in%20Array%20loop.go)
 * [Binary Search](./)
 * [Interpolation Search](./)
 ## 6. Data structure
