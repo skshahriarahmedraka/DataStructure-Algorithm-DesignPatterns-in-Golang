@@ -159,7 +159,10 @@ Dynamic programming : 80
 * Others - 5
 
 ## 8. Tree 
+
 https://en.wikipedia.org/wiki/List_of_data_structures
+        complete binary tree 
+        full binary tree 
         Linked List Advantages
         What is Data Structure
         Heap Data Structure

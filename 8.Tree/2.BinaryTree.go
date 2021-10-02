@@ -124,6 +124,8 @@ func LevelOrder(root *Node){
 }
 
 func AccessNodesByLayer(root *Node) [][]int{
+
+
 	var res [][]int
 	if root ==nil {
 		return res
