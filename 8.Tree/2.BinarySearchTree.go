@@ -13,7 +13,7 @@ type Node struct {
 	Value int
 	LeftNode *Node
 	RightNode *Node
-	//ParentNode *Node
+	ParentNode *Node
 }
 
 func NewNode(value int) *Node {
@@ -158,5 +158,24 @@ func AccessNodesByLayer(root *Node) [][]int{
 
 
 func main(){
-
+	fmt.Println("######### binary search tree ###########")
+	fmt.Printf("how many value  : ")
+	t:=0
+	fmt.Scanln(&t)
+	b:= BinaryTree{Root: nil}
+	for i:=0;i<t ;i++{
+		fmt.Printf("%dth value : ",i)
+		v:=0
+		fmt.Scanln(&v)
+		b.Root=Insert(b.Root,v)
+		fmt.Printf("%d inserted \n",v)
+	}
+	fmt.Println("in order : ....")
+	InOrder(b.Root)
+	fmt.Println("pre order : ....")
+	PreOrder(b.Root)
+	fmt.Println("post order : ....")
+	PostOrder(b.Root)
+	fmt.Println("level order : ....")
+	LevelOrder(b.Root)
 }

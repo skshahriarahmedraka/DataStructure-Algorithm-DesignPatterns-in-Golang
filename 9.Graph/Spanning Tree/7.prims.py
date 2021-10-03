@@ -38,6 +38,7 @@ class Graph :
                 added[node._id] = True
                 print("Added Node : " + str(node._id) + ", cost now : "+str(min_span_tree_cost))
 
+
                 for item in self.adjlist[node._id] :
                     adjnode = item[0]
                     adjcost = item[1]
