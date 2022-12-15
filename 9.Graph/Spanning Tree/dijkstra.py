@@ -8,22 +8,30 @@ distances = {
     'E': {'A': 12, 'D': 1, 'C': 1, 'F': 2},
     'F': {'A': 5, 'E': 2, 'C': 16}}
 
-unvisited = {node: None for node in nodes} #using None as +inf
+unvisited = {node: None for node in nodes}  #using None as +inf
+print("unvisited : ",unvisited)
 visited = {}
+
 current = 'B'
 currentDistance = 0
 unvisited[current] = currentDistance
-
+print("unvisited : ",unvisited)
 while True:
     for neighbour, distance in distances[current].items():
+        print("neighbour , distance : ",neighbour," ",distance)
         if neighbour not in unvisited: continue
         newDistance = currentDistance + distance
         if unvisited[neighbour] is None or unvisited[neighbour] > newDistance:
             unvisited[neighbour] = newDistance
     visited[current] = currentDistance
+    print("visited : ",visited)
+    print("unvisited : ",unvisited)
     del unvisited[current]
+    print("unvisited : ",unvisited)
     if not unvisited: break
     candidates = [node for node in unvisited.items() if node[1]]
-    current, currentDistance = sorted(candidates, key = lambda x: x[1])[0]
+    print("candidate : ",candidates)
+    current, currentDistance = sorted(candidates, key=lambda x: x[1])[0]
+    print("current : ",current," currentDistance : ",currentDistance)
 
 print(visited)

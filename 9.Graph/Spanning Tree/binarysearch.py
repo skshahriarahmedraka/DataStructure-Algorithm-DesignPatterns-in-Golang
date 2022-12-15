@@ -3,9 +3,6 @@
 # @Email:  skshahriarahmedraka@gmail.com
 # @Last modified by:   ssar
 # @Last modified time: 27-Mar-2021
-
-
-
 #ok binary tree
 
 class Node():
