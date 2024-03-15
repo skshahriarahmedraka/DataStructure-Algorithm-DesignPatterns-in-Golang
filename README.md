@@ -5,6 +5,7 @@
 [comment]: <> (Data structure, Ciphers, Conversions,Design Patterns,Dynamic Programming,Genetic Algorithm,)
 
 [comment]: <> (Graphs,Tree,Math,Search, Sorts, String)
+
 <a href="https://img.shields.io/badge/license-MIT-green"><img alt="build-status" src="https://img.shields.io/badge/license-MIT-green" /></a>
 <a href="https://www.t.me/shahriarraka"><img alt="build-status" src="https://img.shields.io/badge/telegram-shahriarahmed-red" /></a>
 
@@ -27,7 +28,8 @@
 - [Tower Of Hanoi](./1.Math/8.towerOfHanoi.go)
 - [Generate Pure Random Number](./1.Math/11.RandomNumber.go)
 - [Generate Secure Pure Random Number](./1.Math/12.SecureRandomNumber.go)
-<!-- * [Python like list sort function](./1.Math/) -->
+  
+  <!-- * [Python like list sort function](./1.Math/) -->
 
 [comment]: <> (\* [Sieve]&#40;./math/sieve/&#41;)
 
@@ -45,11 +47,17 @@
 [comment]: <> (\* [input ]&#40;3.conversion&input/&#41;)
 
 - [Byte to int,float,string,boolean,complex,slice](3.conversion&input/7.byte%20to%20All.go)
+
 - [Int to byte,float,string,boolean,complex,slice](3.conversion&input/)
+
 - [Float to byte,int,string,boolean,complex,slice](3.conversion&input/)
+
 - [String to byte,int,float,boolean,complex,slice](3.conversion&input/)
+
 - [Boolean to byte,int,float,string,complex,slice](3.conversion&input/)
+
 - [complex to byte,int,float,string,boolean,slice](3.conversion&input/)
+
 - [slice to byte,int,float,string,boolean,complex](3.conversion&input/)
 
 - [Roman To Integer](3.conversion&input/1.RomanToInt.go)
@@ -57,22 +65,31 @@
 ## 4. Data structure
 
 - [Dynamic Array](./)
+
 - [Linked-List](./)
+  
   - [Doubly Linked List](./)
   - [Singly Linked List](./)
   - [Cyclic Linked List AKA Looped Linked List](./)
+
 - [Stack](./)
+  
   - [Array Based](./)
   - [Custom Linked List](./)
   - [Standard Library Container/List Based](./)
+
 - [Queue](./)
+  
   - [Array Based](./)
   - [Custom Linked List Based](./)
   - [Standard Library Container/List Based](./)
+
 - [Set](./)
 
 - [Trie](./)
+
 - [Binary Tree](./)
+
 - [Binary Search Tree](./)
 
 [comment]: <> (\* [AVL]&#40;./&#41;)
@@ -82,7 +99,7 @@
 [comment]: <> (\* [B+ Tree]&#40;./&#41;)
 
 - Heap:
-
+  
   Binary Heap
   Why is Binary Heap Preferred over BST for Priority Queue?
   Binomial Heap
@@ -93,12 +110,12 @@
   Tournament Tree (Winner Tree) and Binary Heap
 
 - [Hashmap](./)
+
 - [Hash Table](./)
+
 - [Dictionary](./)
+
 - [Graph](./)
-
-
-
 
 ## 5. Tree Data Structure
 
@@ -142,6 +159,7 @@ Skip List
 Trees and Tree Algorithms
 
 [comment]: <> (https://runestone.academy/runestone/books/published/pythonds/Trees/toctree.html)
+
 7.1. Objectives
 7.2. Examples of Trees
 7.3. Vocabulary and Definitions
@@ -517,42 +535,64 @@ Single source shortest path
 
 ## 10. Tree Algorithm
 
-## 11. Graph Algorithm  
+## 11. Graph Algorithm
 
 ## 12. Dynamic programming
 
 Dynamic programming : 80
 
 - 0-1 knapsack problem - 6
-
+  
   - [Subset sum](./7.DynamicProgramming/Subset%20Sum%20Problem.go)
-
+  
   - Equal sum partition
+  
   - Count of subset sum
+  
   - Minimum subset sum diff
+  
   - Target sum
+  
   - \# of subset & genis
 
 - Unbound knapsack problem - 5
+
 - Fibonacci - 7
+
 - Longest common subsequence (LCS) - 15
+
 - Longest increasing subsequence (LIS) - 10
+
 - Kadane’s algorithm - 6
+
 - Matrix chain multiplication - 7
+
 - DP on trees - 4
+
 - DP on grid - 14
+
 - Others - 5
-## 13. Cryptography/Ciphers (encryptions)
+  
+  ## 13. Cryptography/Ciphers (encryptions)
 
 - [Bcrypt](./11.Ciphers/2.bcrypt/main.go) <br>
+
 - [Scrypt](./11.Ciphers/3.Scrypt/main.go) <br>
+
 - [SHA](./11.Ciphers/4.sha/main.go) <br>
+
 - [hmac](./11.Ciphers/5.hmac/main.go) <br>
+
 - [Caesar](./)
+
 - [Diffie Hellman Key Exchange](./)
+
 - [Polybius](./)
+
 - [Rot13](./)
+
 - [Rsa](./)
+
 - [Xor](./)
 
 ## 14. Design Patterns
