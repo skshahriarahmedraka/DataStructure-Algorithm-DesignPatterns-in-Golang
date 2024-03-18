@@ -18,15 +18,25 @@
 ## 1. Math ([Read](./1.Math/README.md))
 
 - [GCD](./1.Math/1.GCD.go)
+
 - [LCM](./1.Math/2.LCM.go)
+
 - [Modular Exponentiation](./1.Math/3.ModularExponentiation.go)
+
 - [Permutation](./1.Math/9.Permutation.go)
+
 - [Power](./1.Math/6.Power.go)
+
 - [Prime Check](./1.Math/4.PrimeCheck.go)
+
 - [Prime Generate](./1.Math/5.GeneratePrime.go)
+
 - [Pythagoras](./1.Math/7.Pythagoras.go)
+
 - [Tower Of Hanoi](./1.Math/8.towerOfHanoi.go)
+
 - [Generate Pure Random Number](./1.Math/11.RandomNumber.go)
+
 - [Generate Secure Pure Random Number](./1.Math/12.SecureRandomNumber.go)
   
   <!-- * [Python like list sort function](./1.Math/) -->
@@ -122,21 +132,33 @@
 https://en.wikipedia.org/wiki/List_of_data_structures
 
 - complete binary tree
+
 - full binary tree
+
 - Linked List Advantages
+
 - What is Data Structure
+
 - Heap Data Structure
+
 - Types of Trees in Data Structure
+
 - AVL Tree in Data Structure
+
 - B Tree in Data Structure
+
 - B+ Tree in Data Structure
-- DFS Algorithm
-- BFS Algorithm
+
 - Arrays in Data Structure
+
 - Graph in Data Structure
+
 - Graph Representation
+
 - Breadth First Search
+
 - Depth Limited Search
+
 - Pointers in Data Structure
 
 Types of Graph in Data Structure
